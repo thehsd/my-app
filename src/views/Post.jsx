@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 
 const Post = () => {
   const adres = useSelector(state => state.addresses.addresses)
-  console.log(" adres : ", adres)
+  console.log(" adrdlfkjdlkfges : ", adres)
 
   const count = useSelector(state => state.counter.value)
   return (
